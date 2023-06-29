@@ -1,7 +1,7 @@
 export class Employee {
     id: number;
     firstName: string;
-    lastName:  string;
+    lastName: string;
     emailId: string;
 
     constructor(id: number,
@@ -9,10 +9,9 @@ export class Employee {
                 lastName: string,
                 emailId: string){
 
-                    
         this.id = id;
         this.firstName = firstName;
-        this.lastName =lastName;
+        this.lastName = lastName;
         this.emailId = emailId;
     }
 }
